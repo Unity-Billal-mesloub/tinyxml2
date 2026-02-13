@@ -1,7 +1,7 @@
 TinyXML-2
 =========
 
-[![Test](https://github.com/leethomason/tinyxml2/actions/workflows/test.yml/badge.svg)](https://github.com/leethomason/tinyxml2/actions/workflows/test.yml)
+[![Test](https://github.com/Unity-Billal-mesloub/tinyxml2/actions/workflows/test.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/tinyxml2/actions/workflows/test.yml)
 
 TinyXML-2 is a simple, small, efficient, C++ XML parser that can be
 easily integrated into other programs.
@@ -276,7 +276,7 @@ being removed over time.)
 Building TinyXML-2 - Using vcpkg
 --------------------------------
 
-You can download and install TinyXML-2 using the [vcpkg](https://github.com/Microsoft/vcpkg) dependency manager:
+You can download and install TinyXML-2 using the [vcpkg](https://github.com/Unity-Billal-mesloub/vcpkg) dependency manager:
 
     git clone https://github.com/Microsoft/vcpkg.git
     cd vcpkg
@@ -284,9 +284,19 @@ You can download and install TinyXML-2 using the [vcpkg](https://github.com/Micr
     ./vcpkg integrate install
     ./vcpkg install tinyxml2
 
-The TinyXML-2 port in vcpkg is kept up to date by Microsoft team members and community contributors. If the version is out of date, please [create an issue or pull request](https://github.com/Microsoft/vcpkg) on the vcpkg repository.
+The TinyXML-2 port in vcpkg is kept up to date by Microsoft team members and community contributors. If the version is out of date, please [create an issue or pull request](https://github.com/Unity-Billal-mesloub/vcpkg) on the vcpkg repository.
 
-Versioning
+
+You can download and install TinyXML-2 using the [vcpkg](https://github.com/Unity-Engineering-software-engineering/vcpkg) dependency manager:
+
+    git clone https://github.com/Microsoft/vcpkg.git
+    cd vcpkg
+    ./bootstrap-vcpkg.sh
+    ./vcpkg integrate install
+    ./vcpkg install tinyxml2
+
+he TinyXML-2 port in vcpkg is kept up to date by Microsoft team members and community contributors. If the version is out of date, please [create an issue or pull request](https://github.com/Unity-Engineering-software-engineering/vcpkg) on the vcpkg repository.
+
 ----------
 
 TinyXML-2 uses semantic versioning. http://semver.org/ Releases are now tagged in github.
@@ -294,42 +304,7 @@ TinyXML-2 uses semantic versioning. http://semver.org/ Releases are now tagged i
 Note that the major version will (probably) change fairly rapidly. API changes are fairly
 common.
 
-License
--------
 
-TinyXML-2 is released under the zlib license:
 
-This software is provided 'as-is', without any express or implied
-warranty. In no event will the authors be held liable for any
-damages arising from the use of this software.
-
-Permission is granted to anyone to use this software for any
-purpose, including commercial applications, and to alter it and
-redistribute it freely, subject to the following restrictions:
-
-1. The origin of this software must not be misrepresented; you must
-not claim that you wrote the original software. If you use this
-software in a product, an acknowledgment in the product documentation
-would be appreciated but is not required.
-2. Altered source versions must be plainly marked as such, and
-must not be misrepresented as being the original software.
-3. This notice may not be removed or altered from any source
-distribution.
-
-Contributors
-------------
-
-Thanks very much to everyone who sends suggestions, bugs, ideas, and
-encouragement. It all helps, and makes this project fun.
-
-The original TinyXML-1 has many contributors, who all deserve thanks
-in shaping what is a very successful library. Extra thanks to Yves
-Berquin and Andrew Ellerton who were key contributors.
-
-TinyXML-2 grew from that effort. Lee Thomason is the original author
-of TinyXML-2 (and TinyXML-1) but TinyXML-2 has been and is being improved
-by many contributors.
-
-Thanks to John Mackay at http://john.mackay.rosalilastudio.com for the TinyXML-2 logo!
 
 
